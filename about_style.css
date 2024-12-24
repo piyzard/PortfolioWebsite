@@ -19,18 +19,18 @@ body{
     color: white;
 }
 header{
-    margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: transparent;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .logo{
     font-size: 3rem;
@@ -106,7 +106,7 @@ nav a.active{
     font-size: 3rem;
 }
 .quote{
-    padding-top: 3rem;
+    padding-top: 20px;
     font-size: 5rem;
     color: #b74b4b;
 }
@@ -114,3 +114,10 @@ nav a.active{
     padding-top: 5rem;
     font-size: 2rem;
 }
+
+@media (max-width: 1000px) {
+    .quote {
+        padding-top: 150vh;
+    }
+}
+  

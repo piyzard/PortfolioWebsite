@@ -20,18 +20,18 @@ body{
     color: white;
 }
 header{
-    margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: transparent;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .logo{
     font-size: 3rem;
