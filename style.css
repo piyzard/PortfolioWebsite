@@ -163,6 +163,7 @@ span{
     transition: 0.3s ease;
     cursor: pointer;
     margin-right: 5%;
+    margin-top: 5%;
 }
 .btn:hover{
     transform: scale3d(1.03);
